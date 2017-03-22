@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd9b4feb-1eb8-401d-a525-ec7401b5800c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/32x32.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="yingzidp.github.io.iws" />
@@ -26,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12014134">
-              <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+            <state vertical-scroll-proportion="0.20023558">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -71,8 +73,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="140" />
-    <option name="y" value="23" />
+    <option name="x" value="152" />
+    <option name="y" value="104" />
     <option name="width" value="1567" />
     <option name="height" value="1027" />
   </component>
@@ -208,7 +210,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="140" y="23" width="1567" height="1027" extended-state="0" />
+    <frame x="152" y="104" width="1567" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24952137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -270,15 +272,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/16x16.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12014134">
-          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.20023558">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
