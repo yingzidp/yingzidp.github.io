@@ -14,6 +14,9 @@
 }
 
 .homeHeader{
+    position:absolute; /*固定在上面*/
+    top:0;
+    left:0;
     width: 100%;
     height: 140px;
     box-shadow: 0px 0 0px #FFFFFF, /*左边阴影*/
@@ -26,8 +29,9 @@
 }
 
 .homefooter{
-    /*background-color: #00FF00;*/
-    width: 100%;
+    background-color: #B9AF7C;
+    width:100%;
+    height:100%;
 }
 
 .avatar{
@@ -45,6 +49,7 @@
 }
 
 .fontCss {
+    cursor:pointer;
     margin-left: 40px;
     font-family:"微软雅黑";
     font-weight:bold;
