@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd9b4feb-1eb8-401d-a525-ec7401b5800c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/32x32.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/favicon.ico.png" afterPath="$PROJECT_DIR$/img/favicon.ico.png" />
     </list>
     <ignored path="yingzidp.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,8 +71,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="152" />
-    <option name="y" value="104" />
+    <option name="x" value="54" />
+    <option name="y" value="23" />
     <option name="width" value="1567" />
     <option name="height" value="1027" />
   </component>
@@ -210,7 +208,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="152" y="104" width="1567" height="1027" extended-state="0" />
+    <frame x="54" y="23" width="1567" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24952137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
