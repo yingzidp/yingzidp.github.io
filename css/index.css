@@ -49,11 +49,11 @@
 }
 
 .fontCss {
-    text-decoration: none;
     cursor:pointer;
     margin-left: 40px;
     font-family: "微软雅黑";
     font-weight: bold;
     font-size: 30px;
     color: #C0C0C0;
+    text-decoration: none;
 }
