@@ -1,0 +1,28 @@
+
+.header{
+    position: inherit;
+    width: 100%;
+    background-color: #B9AF7C;
+}
+
+.showHomeDiv{
+    width: 620px;
+    /*background-color: #FF0000;*/
+    margin: 0 auto;
+}
+
+
+.showView{
+    position: absolute;
+    width: 620px;
+    height: 620px;
+    margin-top: 80px;
+    background-color: #FFFFFF;
+
+    box-shadow: 0px 0px 5px #6F4C2B, /*左边阴影*/
+    0px 0px 5px #6F4C2B, /*右边阴影*/
+    0 0px 5px #6F4C2B, /*顶部阴影*/
+    0 0px 5px #6F4C2B; /*底边阴影*/
+
+    border-radius: 50px;
+}
