@@ -7,52 +7,26 @@
     <link rel="icon" href="../img/favicon.ico.png" type="image/x-icon" />
     <link rel="shortcut icon" href="../img/favicon.ico.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/App.js"></script>
+    <script src="js/framework/require.js" data-main="js/config.js"></script>
 </head>
 <body>
-    <div class="home">
+    <div class="nav-home">
         <div class="homeHeader">
             <div class="homeHeaderDiv">
                 <img class="avatar" src="img/avatar.png">
 
-                <a onclick="loadHomeHtml()" class="fontCss">主页</a>
-                <a onclick="loadSkillHtml()" class="fontCss">技能</a>
-                <a onclick="loadIntroductionHtml()" class="fontCss">简介</a>
-                <a onclick="loadLifeHtml()" class="fontCss">生活</a>
+                <a href="#/home" class="fontCss" id="home">主页</a>
+                <a href="#/skill" class="fontCss" id="skill">技能</a>
+                <a href="#/introduction" class="fontCss" id="introduction">简介</a>
+                <a href="#/life" class="fontCss" id="life">生活</a>
             </div>
         </div>
 
-        <div class="homefooter">
+        <div id="homeFooterDiv">
 
         </div>
     </div>
-
-    <script>
-
-        // 加载主页Html
-        function loadHomeHtml (){
-
-
-        }
-
-        // 加载技能Html
-        function loadSkillHtml () {
-
-
-        }
-
-        // 加载简介Html
-        function loadIntroductionHtml() {
-
-
-        }
-
-        // 加载生活Html
-        function loadLifeHtml() {
-
-
-        }
-
-    </script>
 
 </body>
 </html>
