@@ -11,6 +11,8 @@
         paths: {
             director: 'js/framework/director.min',
             jquery: 'js/framework/jquery-3.2.0.min',
+            chart: 'js/framework/Chart.min',
+            chartRadar: 'js/framework/Chart.Radar',
         },
         shim: {
             user: ['jquery'],

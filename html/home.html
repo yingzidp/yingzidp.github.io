@@ -13,6 +13,54 @@
                 <span style="left: 360px; top: 90px; position: absolute;"> 邮箱:   lijie930518@163.com</span>
                 <span style="left: 150px; top: 120px; position: absolute;"> 政治面貌:   党员</span>
             </div>
+            <div style="width: 620px; height: 460px; top: 160px; position: absolute;">
+                <span style="left: 30px; position: absolute; color: #44C5F2"> 内心属性(如故App测试) </span>
+
+                <span style="left: 30px; top: 26px; position: absolute; width: 140px; font-size: 12px;"> 不喜欢冒险的行为,小心翼翼的避开自己不熟悉的领域,很难鼓起勇气尝试新鲜的事物. </span>
+
+                <span style="left: 244px; top: 26px; position: absolute; width: 140px; font-size: 12px;"> 你更注重内心感受而非利弊得失.想要说服你,"动之以情"比"晓之以理"更有效.</span>
+
+                <span style="left: 457px; top: 26px; position: absolute; width: 140px; font-size: 12px;"> 你常常有各种各样的愿望,但却难逃三分钟热度和安逸稳定的生活.你过的非常舒坦,因此也让和你在一起的人感到放松自在. </span>
+
+                <span style="left: 30px; top: 340px; position: absolute; width: 140px; font-size: 12px;"> 虽然你很少主动说出自己的观点,但内心有自己的原则 .</span>
+
+                <span style="left: 244px; top: 340px; position: absolute; width: 140px; font-size: 12px;"> 不会斤斤计较个人的得失,宁愿自己有损失,也不愿意和他人产生冲突. </span>
+
+                <span style="left: 457px; top: 340px; position: absolute; width: 140px; font-size: 12px;"> 你比较依赖他人带来的安全感,生活中像个孩子,但在被需要时也能瞬间成为大人. </span>
+
+
+                <div style="width: 200px; height: 220px; top: 100px; left: 210px; position: absolute;">
+                    <canvas id="myChart">
+
+                    </canvas>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+
+    require(['chart', 'chartRadar'], function(){
+        console.log('33333');
+        var data = {
+            labels : ["前卫", "独立", "随和", "直率", "进取","理性"],
+            datasets : [
+                {
+                    fillColor : "rgba(255, 255, 255, 0)",
+                    strokeColor : "rgba(68, 197, 242, 1)",
+                    pointColor : "rgba(68, 197, 242, 1)",
+                    pointStrokeColor : "#fff",
+                    data : [40, 30, 70, 50, 55, 41]
+                }
+            ]
+        }
+
+        var ctx = $("#myChart").get(0).getContext("2d");
+        var myNewChart = new Chart(ctx);
+        new Chart(ctx).Radar(data,  {
+            responsive: true
+        });
+    });
+
+</script>
